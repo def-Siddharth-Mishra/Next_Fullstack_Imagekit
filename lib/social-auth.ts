@@ -3,7 +3,7 @@ import GoogleProvider from "next-auth/providers/google";
 import GitHubProvider from "next-auth/providers/github";
 import AppleProvider from "next-auth/providers/apple";
 
-export const authOptions : NextAuthOptions = {
+export const socailAuthOptions : NextAuthOptions = {
     providers: [
 
         GitHubProvider({
